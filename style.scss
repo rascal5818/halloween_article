@@ -1,0 +1,123 @@
+$backgroundColor: #fffafb;
+$articleFontSize: 1.2em;
+$articleLineHeight: 1.8em;
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  background: $backgroundColor;
+  }
+
+#article-banner {
+  grid-column: 2;
+  margin-bottom: 25px;
+}
+
+h1 {
+  font-size: 3.5em;
+  font-weight: 500;
+  }
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+#large-image {
+  width: 100%
+}
+
+#paragraph-1 {
+  grid-column: 2;
+  font-size: $articleFontSize;
+  line-height: $articleLineHeight;
+  margin-bottom: 50px;
+}
+
+#first-quote {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column: 2;
+  margin-bottom: 50px;
+}
+
+#first-quote-image {
+  grid-column: 1;
+  width: 100%;
+  min-width: 300px;
+  filter: grayscale(0.5);
+}
+
+#first-quote-image:hover {
+  filter: grayscale(0.0);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .3);
+}
+
+#quote1 {
+  padding: 0 75px 0 75px;
+  font-size: 2.2em;
+  font-style: italic;
+  text-align: center;
+  place-self: center;
+}
+
+#paragraph-2 {
+  grid-column: 2;
+  font-size: $articleFontSize;
+  line-height: $articleLineHeight;
+  margin-bottom: 50px;
+}
+
+#second-quote {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column: 2;
+  margin-bottom: 50px;
+}
+
+#second-quote-image {
+  grid-column: 2;
+  width: 100%;
+  min-width: 300px;
+  filter: grayscale(0.5);
+}
+
+#second-quote-image:hover {
+  filter: grayscale(0.0);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .3);
+}
+
+#quote2 {
+  grid-column: 1;
+  padding: 0 75px 0 75px;
+  font-size: 2.2em;
+  font-style: italic;
+  text-align: center;
+  place-self: center;
+}
+
+#paragraph-3 {
+  grid-column: 2;
+  font-size: $articleFontSize;
+  line-height: $articleLineHeight;
+  margin-bottom: 50px;
+}
+
+#large-image-bottom {
+  grid-column: 2;
+  width: 100%;
+  filter: grayscale(0.7);
+  margin: 25px 0;
+}
+
+#large-image-bottom:hover {
+  filter: grayscale(0.0);
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, .3);
+}
+
+::selection {
+  background: #dd7230;
+  color: #ffffff;
+} 

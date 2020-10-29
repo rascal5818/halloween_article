@@ -6,4 +6,4 @@ This is just a quick little article I put together using HTML and Sass. I used G
 
 For this one, I played around with image hover effects and text selection. 
 
-!([screenshot/screenshot.jpg])
+![](screenshot/screenshot-halloween-article.jpg)
